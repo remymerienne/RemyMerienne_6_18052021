@@ -54,7 +54,7 @@ const updateByFetch = (dataToUpdate) => {
     },
     body: JSON.stringify(dataToUpdate)
   };
-  fetch(`https://remymerienne.github.io/RemyMerienne_6_18052021/data_base.json/media/${dataToUpdate.id}`, init)
+  fetch(`http://localhost:3000/media/${dataToUpdate.id}`, init)
     .catch(error => console.log(`Erreur avec le message : ${error}`));
 };
 

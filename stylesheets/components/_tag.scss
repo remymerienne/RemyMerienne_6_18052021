@@ -1,0 +1,37 @@
+// -----------------------------------------------------------------------------
+// * This file contains styles that are specific to the keyword tag.
+// -----------------------------------------------------------------------------
+
+.tag {
+  margin: 2.5px;
+  padding: 3px 5px;
+  border: 0.5px solid $tag-border-color;
+  color: $primary-color;
+  font-weight: 500;
+  cursor: pointer;
+
+  &::before {
+    content: "#";
+  }
+
+  &:hover {
+    border: 0.5px solid $primary-color;
+    background-color: $primary-color;
+    color: #ffffff;
+  }
+}
+
+.js-tags {
+  @include lg {
+    margin-bottom: 10px;
+  }
+}
+
+.js-tags:focus .tag {
+  border: 3px solid $primary-color;
+  background-color: $tertiary-color;
+  color: #000000;
+}
+
+// * End
+// * ------------------------

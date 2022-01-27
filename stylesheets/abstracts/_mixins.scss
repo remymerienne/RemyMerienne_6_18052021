@@ -1,0 +1,106 @@
+// -----------------------------------------------------------------------------
+// * This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+// ================MENU================
+// - 1. Media Queries index page
+// - 2. Media Queries photographer page
+// ====================================
+
+// - 1. Media Queries index page
+// --------------------------
+
+/// Mixins Media Queries Extra-large (max 1284px)
+/// @access public
+/// @requires $breakpoints-index - Breakpoints map
+@mixin xl {
+  @media screen and (max-width: map-get($breakpoints-index, xl)) {
+    @content;
+  }
+}
+
+/// Mixins Media Queries Large (max 981px)
+/// @access public
+/// @requires $breakpoints-index - Breakpoints map
+@mixin lg {
+  @media screen and (max-width: map-get($breakpoints-index, lg)) {
+    @content;
+  }
+}
+/// Mixins Media Queries Medium (max 809px)
+/// @access public
+/// @requires $breakpoints-index - Breakpoints map
+@mixin md {
+  @media screen and (max-width: map-get($breakpoints-index, md)) {
+    @content;
+  }
+}
+
+/// Mixins Media Queries Small (max 635px)
+/// @access public
+/// @requires $breakpoints-index - Breakpoints map
+@mixin sm {
+  @media screen and (max-width: map-get($breakpoints-index, sm)) {
+    @content;
+  }
+}
+
+// - 2. Media Queries photographer page
+// --------------------------
+
+/// Mixins Media Queries Extra-large (max 1410px)
+/// @access public
+/// @requires $breakpoints-photographer - Breakpoints map
+@mixin xl-photographer {
+  @media screen and (max-width: map-get($breakpoints-photographer, xl)) {
+    @content;
+  }
+}
+
+/// Mixins Media Queries Large (max 1290px)
+/// @access public
+/// @requires $breakpoints-photographer - Breakpoints map
+@mixin lg-photographer {
+  @media screen and (max-width: map-get($breakpoints-photographer, lg)) {
+    @content;
+  }
+}
+
+/// Mixins Media Queries Medium (max 1100px)
+/// @access public
+/// @requires $breakpoints-photographer - Breakpoints map
+@mixin md-photographer {
+  @media screen and (max-width: map-get($breakpoints-photographer, md)) {
+    @content;
+  }
+}
+
+/// Mixins Media Queries Small (max 870px)
+/// @access public
+/// @requires $breakpoints-photographer - Breakpoints map
+@mixin sm-photographer {
+  @media screen and (max-width: map-get($breakpoints-photographer, sm)) {
+    @content;
+  }
+}
+
+/// Mixins Media Queries Extra-small (max 545px)
+/// @access public
+/// @requires $breakpoints-photographer - Breakpoints map
+@mixin xs-photographer {
+  @media screen and (max-width: map-get($breakpoints-photographer, xs)) {
+    @content;
+  }
+}
+
+/// Mixins Media Queries Nano (max 350px)
+/// @access public
+/// @requires $breakpoints-photographer - Breakpoints map
+@mixin nn-photographer {
+  @media screen and (max-width: map-get($breakpoints-photographer, nn)) {
+    @content;
+  }
+}
+
+// * End
+// * ------------------------

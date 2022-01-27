@@ -1,0 +1,91 @@
+// -----------------------------------------------------------------------------
+// * This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// ================MENU================
+// - 1. Lengths
+// - 2. Colors
+// - 3. Fonts
+// - 4. Breakpoints maps
+// ====================================
+
+// - 1. Lengths
+// --------------------------
+
+/// Page maximum width
+/// @type Length
+$page-max-width: 1440px;
+
+/// Page height
+/// @type Length
+// $page-height: 1024px;
+
+// - 2. Colors
+// --------------------------
+
+/// Primary color
+/// @type Color
+$primary-color: #901c1c;
+
+/// Secondary color
+/// @type Color
+$secondary-color: #d3573c;
+
+/// tertiary color
+/// @type Color
+$tertiary-color: #DB8876;
+
+/// Tag border color
+/// @type Color
+$tag-border-color: #c4c4c4;
+
+/// Price color
+/// @type Color
+$price-color: #757575;
+
+/// Tagline color
+/// @type Color
+$tagline-color: #525252;
+
+/// Back-header color
+/// @type Color
+$back-header-color: #fafafa;
+
+
+// - 3. Fonts
+// --------------------------
+
+/// Font family
+/// @type List
+$font-stack: (
+  'DM Sans',
+  sans-serif,
+);
+
+// - 4. Breakpoints maps
+// --------------------------
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints-index: (
+  'xl': 1284px,
+  'lg': 981px,
+  'md': 809px,
+  'sm': 635px,
+);
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints-photographer: (
+  'xl': 1410px,
+  'lg': 1290px,
+  'md': 1100px,
+  'sm': 800px,
+  'xs': 540px,
+  'nn': 350px,
+);
+
+// * End
+// * ------------------------

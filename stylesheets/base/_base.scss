@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// * This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+a {
+  display: inline-block;
+  height: 100%;
+  text-decoration: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+track {
+  color: #fff;
+  background-color: #000;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+ }
+
+// * End
+// * ------------------------

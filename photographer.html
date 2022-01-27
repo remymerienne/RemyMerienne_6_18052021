@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FishEye</title>
+  <meta name="description" content="FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <!-- Style -->
+  <link rel="stylesheet" type="text/css" href="./css/all.css">
+  <link rel="stylesheet" type="text/css" href="./css/photo.css">
+  <!-- Script -->
+  <script defer src="./dist/main.bundle.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="page">
+
+      <a href="#gotomain" class="button button-main">Passer au contenu</a>
+
+      <header class="header">
+        <a href="./index.html"><img class="header__logo" src="./images/logo.svg" alt="Fisheye page d'accueil"></a>
+      </header>
+
+      <main id="gotomain" class="layout__main">
+      </main>
+
+      <div class="form-wrapping">
+        <div id="js-re" tabindex="0" class="form-content" role="dialog" aria-hidden="true" aria-modal="true"
+          aria-label="Contacter le photographe">
+          <svg tabindex="0" role="button" aria-label="Fermer le formulaire" viewBox="0 0 42 42">
+            <path
+              d="M42 4.23L37.77 0L21 16.77L4.23 0L0 4.23L16.77 21L0 37.77L4.23 42L21 25.23L37.77 42L42 37.77L25.23 21L42 4.23Z" />
+          </svg>
+          <h1 class="form-content__title" id="contact">Contactez-moi</h1>
+          <h2 class="form-content__photographer" id="photographe"></h2>
+          <form novalidate>
+            <div class="form__field" id="firstName">
+              <label for="prenom">Prénom</label>
+              <input id="prenom" aria-required="true">
+            </div>
+            <div class="form__field" id="lastName">
+              <label for="nom">Nom</label>
+              <input id="nom" aria-required="true">
+            </div>
+            <div class="form__field" id="eMail">
+              <label for="e-mail">Email</label>
+              <input id="e-mail" aria-required="true">
+            </div>
+            <div class="form__field" id="userRequest">
+              <label for="request" id="votreMessage">Votre message</label>
+              <textarea id="request" aria-required="true"></textarea>
+            </div>
+            <input class="button form__button" type="submit" value="Envoyer">
+          </form>
+        </div>
+      </div>
+
+      <div class="light-wrapping">
+        <div class="light-box" tabindex="0" role="dialog" aria-hidden="true" aria-modal="true" aria-label="Vue rapprochée de l'image">
+          <div class="left-control">
+            <span class="fas fa-chevron-left box-button" role="link" aria-label="Image précédente"
+              tabindex="0"></span>
+          </div>
+          <figure>
+            <div class="box-media">
+            </div>
+            <figcaption class="box-media__legend">
+            </figcaption>
+          </figure>
+          <div class="right-control">
+            <span class="fas fa-times box-button" role="button" aria-label="Fermer la galerie d'images"
+              tabindex="0"></span>
+            <span class="fas fa-chevron-right box-button" role="link" aria-label="Image suivante" tabindex="0"></span>
+            <em class="fas fa-times box-button hidden"></em>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

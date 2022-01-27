@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// * This file contains styles that are specific to the button.
+// -----------------------------------------------------------------------------
+
+.button {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  height: 69px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: $primary-color;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+
+  &:focus {
+    border: 3px solid $primary-color;
+    background-color: $tertiary-color;
+    color: #000000;
+  }
+}
+
+.button-main {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  top: 10px;
+  left: 50%;
+  width: 180px;
+  height: 30px;
+  margin-left: -90px;
+  font-size: 18px;
+  background-color: $tertiary-color;
+  color: #000000;
+}
+
+// * End
+// * ------------------------

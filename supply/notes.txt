@@ -1,0 +1,24 @@
+Liens du projet :
+-----------------
+[Projet Openclassrooms](https://openclassrooms.com/fr/paths/314/projects/808/assignment)
+[Cours OC coder accessible](https://openclassrooms.com/fr/courses/6691451-codez-un-site-web-accessible-avec-html-css)
+[Maquettes figma](https://www.figma.com/file/pt8xJxC1QffW4HX16QhGZJ/UI-Design-FishEye-FR?node-id=0%3A1)
+[Factory Method](https://www.dofactory.com/javascript/design-patterns/factory-method)
+[Factory Method - Example](https://codingcompiler.com/javascript-design-patterns/)
+
+*******************************************************************************
+
+To Do List :
+------------
+- Optimisation des images
+- Nettoyer les fonts
+- Nettoyer Font Awesome
+- Trouver solution pout <hr> listBox
+- Trouver meilleur code CSS pour sr-only sans warning W3C
+- Gérer déplacement du focus au survol de la souris sur listBox
+- Faire une version du site avec un compteur de likes en local storage pour une réactivité maximum
+- Nettoyer CSS et compresser le code (CSS et HTML).
+- font-display: swap;
+- Voir pour map des innerHTML all...
+
+*******************************************************************************

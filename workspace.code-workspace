@@ -9,6 +9,7 @@
   "settings": {
 
     "liveServer.settings.multiRootWorkspaceName": "FishEye",
+    "liveServer.settings.port": 5500,
 
     // "restoreTerminals.terminals": [
     //   {

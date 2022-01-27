@@ -10,7 +10,7 @@ import { displayModal } from './components/photographer/modal';
 
 (async () => {
 
-  // await fetch('http://127.0.0.1:5500/data_base.json');
+  // await fetch('http://127.0.0.1:5500/data_base.json')
   await fetch('https://remymerienne.github.io/RemyMerienne_6_18052021/data_base.json')
 
     .then(response => {

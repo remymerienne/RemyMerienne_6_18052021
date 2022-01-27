@@ -17,7 +17,8 @@ const setDataToUpdate = (e, data) => {
       tags: mediaToBeLiked.tags,
       likes: mediaToBeLiked.likes += 1,
       date: mediaToBeLiked.date,
-      price: mediaToBeLiked.price
+      price: mediaToBeLiked.price,
+      alt: mediaToBeLiked.alt
     };
 
     return dataToUpdate;

@@ -4,61 +4,71 @@ Projet N°6 du parcours _Développeur Front-End_ [OpenClassrooms](https://opencl
 
 <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"><img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"><img alt="JavaSript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
-<img alt="GIT" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"><img alt="GIhub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"><img alt="GITKRAKEN" src="https://img.shields.io/badge/GitKraken-179287?style=for-the-badge&logo=GitKraken&logoColor=white">
+<img alt="GIT" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"><img alt="GIhub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"><img alt="GITKRAKEN" src="https://img.shields.io/badge/GitKraken-179287?style=for-the-badge&logo=GitKraken&logoColor=white">![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)<img alt="webpack" src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white"><img alt="babel" src="https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white"><img alt="ESLint" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"><img alt="sass" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
 
-<img alt="webpack" src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white"><img alt="babel" src="https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white"><img alt="ESLint" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"><img alt="sass" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 
-<img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+![FontAwesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+
+## 1.1. Créer un site web accessible pour une plateforme de photographes
+
+- Assurer l'accessibilité d'un site Web
+- Gérer les évènements d'un site avec JavaScript
+- Développer une application Web modulaire avec des Design Patterns
+- Ecrire du code Javascript maintenable
+
+L'application a été réalisée en HTML5, CSS3 et JavaScript sans aucun framework ni librairie.
 
 ***
+
 - [1. FishEye](#1-fisheye)
-  - [1.1. Outils](#11-outils)
-    - [1.1.1. Webpack](#111-webpack)
-    - [1.1.2. Babel](#112-babel)
-    - [1.1.3. ESLint](#113-eslint)
-    - [1.1.4. Gestion des modules](#114-gestion-des-modules)
-  - [1.2. Organisation des modules JavaScript](#12-organisation-des-modules-javascript)
-    - [1.2.1. script](#121-script)
-    - [1.2.2. components](#122-components)
-  - [1.3. Les types d'objets](#13-les-types-dobjets)
-    - [1.3.1. Objet counter](#131-objet-counter)
-    - [1.3.2. Objet media et _Factory Method_](#132-objet-media-et-factory-method)
-    - [1.3.3. Objet photographer](#133-objet-photographer)
-  - [1.4. Accessibilité](#14-accessibilité)
-    - [1.4.1. Généralité](#141-généralité)
-    - [1.4.2. List box](#142-list-box)
-      - [1.4.2.1. Etat initial](#1421-etat-initial)
-      - [1.4.2.2. Etat au Focus](#1422-etat-au-focus)
-      - [1.4.2.3. Etat étendu](#1423-etat-étendu)
-      - [1.4.2.4. construction **HTML**](#1424-construction-html)
-    - [1.4.3. Compteur de Like](#143-compteur-de-like)
-      - [1.4.3.1. Fonctionnement général](#1431-fonctionnement-général)
-      - [1.4.3.2. Etat au Focus](#1432-etat-au-focus)
-    - [1.4.4. Tags](#144-tags)
-      - [1.4.4.1. Construction **HTML** et **CSS**](#1441-construction-html-et-css)
-      - [1.4.4.2. Etat au Focus](#1442-etat-au-focus)
-    - [1.4.5. Sous-titres](#145-sous-titres)
-      - [1.4.5.1. Déclaration HTML](#1451-déclaration-html)
-      - [1.4.5.2. Fichier _.vtt_](#1452-fichier-vtt)
-    - [1.4.6. Vignette photographe](#146-vignette-photographe)
-      - [1.4.6.1. Zone de _Focus_](#1461-zone-de-focus)
-    - [1.4.7. Modal Formulaire de contact](#147-modal-formulaire-de-contact)
-      - [1.4.7.1. Rôle et attributs ***ARIA***](#1471-rôle-et-attributs-aria)
-      - [1.4.7.2. Input et gestion des erreurs](#1472-input-et-gestion-des-erreurs)
-      - [1.4.7.3. Navigation au clavier et respect de **WAI-ARIA**](#1473-navigation-au-clavier-et-respect-de-wai-aria)
-    - [1.4.8. Modal Light Box](#148-modal-light-box)
-  - [1.5. Validité du code](#15-validité-du-code)
-    - [1.5.1. HTML et CSS valide W3C](#151-html-et-css-valide-w3c)
-    - [1.5.2. Accessibility checker](#152-accessibility-checker)
+  - [1.1. Créer un site web accessible pour une plateforme de photographes](#11-créer-un-site-web-accessible-pour-une-plateforme-de-photographes)
+    - [1.1.1. Outils](#111-outils)
+      - [1.1.1.1. Webpack](#1111-webpack)
+      - [1.1.1.2. Babel](#1112-babel)
+      - [1.1.1.3. ESLint](#1113-eslint)
+      - [1.1.1.4. Gestion des modules](#1114-gestion-des-modules)
+    - [1.1.2. Organisation des modules JavaScript](#112-organisation-des-modules-javascript)
+      - [1.1.2.1. script](#1121-script)
+      - [1.1.2.2. components](#1122-components)
+    - [1.1.3. Les types d'objets](#113-les-types-dobjets)
+      - [1.1.3.1. Objet counter](#1131-objet-counter)
+      - [1.1.3.2. Objet media et _Factory Method_](#1132-objet-media-et-factory-method)
+      - [1.1.3.3. Objet photographer](#1133-objet-photographer)
+    - [1.1.4. Accessibilité](#114-accessibilité)
+      - [1.1.4.1. Généralité](#1141-généralité)
+      - [1.1.4.2. List box](#1142-list-box)
+        - [1.1.4.2.1. Etat initial](#11421-etat-initial)
+        - [1.1.4.2.2. Etat au Focus](#11422-etat-au-focus)
+        - [1.1.4.2.3. Etat étendu](#11423-etat-étendu)
+        - [1.1.4.2.4. construction **HTML**](#11424-construction-html)
+      - [1.1.4.3. Compteur de Like](#1143-compteur-de-like)
+        - [1.1.4.3.1. Fonctionnement général](#11431-fonctionnement-général)
+        - [1.1.4.3.2. Etat au Focus](#11432-etat-au-focus)
+      - [1.1.4.4. Tags](#1144-tags)
+        - [1.1.4.4.1. Construction **HTML** et **CSS**](#11441-construction-html-et-css)
+        - [1.1.4.4.2. Etat au Focus](#11442-etat-au-focus)
+      - [1.1.4.5. Sous-titres](#1145-sous-titres)
+        - [1.1.4.5.1. Déclaration HTML](#11451-déclaration-html)
+        - [1.1.4.5.2. Fichier _.vtt_](#11452-fichier-vtt)
+      - [1.1.4.6. Vignette photographe](#1146-vignette-photographe)
+        - [1.1.4.6.1. Zone de _Focus_](#11461-zone-de-focus)
+      - [1.1.4.7. Modal Formulaire de contact](#1147-modal-formulaire-de-contact)
+        - [1.1.4.7.1. Rôle et attributs ***ARIA***](#11471-rôle-et-attributs-aria)
+        - [1.1.4.7.2. Input et gestion des erreurs](#11472-input-et-gestion-des-erreurs)
+        - [1.1.4.7.3. Navigation au clavier et respect de **WAI-ARIA**](#11473-navigation-au-clavier-et-respect-de-wai-aria)
+      - [1.1.4.8. Modal Light Box](#1148-modal-light-box)
+    - [1.1.5. Validité du code](#115-validité-du-code)
+      - [1.1.5.1. HTML et CSS valide W3C](#1151-html-et-css-valide-w3c)
+      - [1.1.5.2. Accessibility checker](#1152-accessibility-checker)
 
 ***
 
-## 1.1. Outils
+### 1.1.1. Outils
 
-L'intégration du site a été réalisée en **HTML5**, **CSS3** et **JavaScript** sans framwork.
-
-### 1.1.1. Webpack
+#### 1.1.1.1. Webpack
 
 <img alt="webpack" src="./supply/images/webpack.png" width="50">
 
@@ -68,13 +78,13 @@ Le _bundler_ **webpack** a permit de regrouper ces différents modules en un seu
 _fichier de configuration  de **webpack** ci-dessous :_  
 [_webpack.confi.js_](./webpack.config.js)
 
-### 1.1.2. Babel
+#### 1.1.1.2. Babel
 
 <img alt="babel" src="./supply/images/babel.png" width="80">
 
 L'utilisation d'un _transpiler_ tel que **Babel** a permit de coder les fonctionnalités de l'application avec du **JavaScript** moderne (ES6) en le rendant _"compréhensible"_ par la plupart des navigateurs.
 
-### 1.1.3. ESLint
+#### 1.1.1.3. ESLint
 
 <img alt="eslint" src="./supply/images/eslint.png" width="50">
 
@@ -83,7 +93,7 @@ Le _linter_ **ESLint** à aidé à conserver une cohérence dans la programmatio
 _fichier de configuration  de **ESLint** ci-dessous :_  
 [_.eslintrc.json_](./.eslintrc.json)
 
-### 1.1.4. Gestion des modules
+#### 1.1.1.4. Gestion des modules
 
 <img alt="NodeJs" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
 
@@ -91,15 +101,15 @@ Nous pouvons retrouver la totalité des dépendances de développement dans le f
 
 ***
 
-## 1.2. Organisation des modules JavaScript
+### 1.1.2. Organisation des modules JavaScript
 
-### 1.2.1. script
+#### 1.1.2.1. script
 
 ![modules-js-1](./supply/images/modulejs1.png)
 
 Le dossier _script_ contient la totalité du code **JavaScript** et se compose d'un dossier regroupant les composants de l'application, et d'un fichier _main.js_ qui est le point d'entré du _bundler_.
 
-### 1.2.2. components
+#### 1.1.2.2. components
 
 ![modules-js-2](./supply/images/modulejs2.png)
 
@@ -116,9 +126,9 @@ Dans chaque dossier d'objet, se trouve :
 
 ***
 
-## 1.3. Les types d'objets
+### 1.1.3. Les types d'objets
 
-### 1.3.1. Objet counter
+#### 1.1.3.1. Objet counter
 
 ![counter](./supply/images/counter.png)
 
@@ -161,7 +171,7 @@ Et ainsi afficher notre objet _myCounter_ grâce à la méthode _.displayCounter
 myCounter.displayCounter();
 ```
 
-### 1.3.2. Objet media et _Factory Method_
+#### 1.1.3.2. Objet media et _Factory Method_
 
 L'objet _media_ représente les photos et les vidéos.  
 Afin de gérer le comportement différent de ces médias qui sont pourtant issus de l'instanciation de la même fonction d'usine, le _Desing pattern_ => _Factory Method_ a été utilisé.
@@ -262,7 +272,7 @@ Les objets de type _média_ implémentent différement la méthode d'affichage :
 nouveauMedia.affichageDuMedia()
 ```
 
-### 1.3.3. Objet photographer
+#### 1.1.3.3. Objet photographer
 
 L'objet _photographer_ instancié par la fonction _createPhotographer()_ apparait dans le projet sous forme de : 
 
@@ -276,9 +286,9 @@ L'objet _photographer_ instancié par la fonction _createPhotographer()_ apparai
 
 ***
 
-## 1.4. Accessibilité
+### 1.1.4. Accessibilité
 
-### 1.4.1. Généralité
+#### 1.1.4.1. Généralité
 
 Les gestionnaires d'événements _JavaScript_ (voir ci-dessous) permettent d'interagir avec tous les éléments de l'application grâce au clavier à l'aide des touches `Enter` et/ou `Space`.
 
@@ -291,9 +301,9 @@ element.addEventListener('keydown', e => {
 });
 ```
 
-### 1.4.2. List box
+#### 1.1.4.2. List box
 
-#### 1.4.2.1. Etat initial
+##### 1.1.4.2.1. Etat initial
 
 <img alt="trigger initial" src="./supply/images/trigger.png" width="300">
 
@@ -307,7 +317,7 @@ Le _trigger_ de la liste de choix (qui définit l'ordre d'affichage des médias)
 Il est nommé grâce à `aria-labelledby="sort-by"` et le relie au paragraphe le précédant par son _ID_.  
 `aria-haspopup="listbox"` déclare que le bouton contrôle une liste de choix et `aria-expanded="false"` indique que cette liste n'est pas étendue.
 
-#### 1.4.2.2. Etat au Focus
+##### 1.1.4.2.2. Etat au Focus
 
 <img alt="trigger focus" src="./supply/images/trigger-focus.png" width="300">
 
@@ -326,7 +336,7 @@ Le code **CSS** suivant permet une mise en évidence clairement visible de l'él
 
 _Note :_ Cette typographie sera utilisée pour tous les éléments interactifs de l'application prenant le _Focus_.
 
-#### 1.4.2.3. Etat étendu
+##### 1.1.4.2.3. Etat étendu
 
 <img alt="trigger expanded" src="./supply/images/trigger-expanded.png" width="300">
 
@@ -343,7 +353,7 @@ uiNodeTrigger.addEventListener('click', () => {
 
 Afin de respecter la norme **WCAG**, le _trigger_ a maintenant le statut ```aria-expanded="true"```
 
-#### 1.4.2.4. construction **HTML**
+##### 1.1.4.2.4. construction **HTML**
 
 ```html
 <ul class="production__navigation-optionslist" role="listbox">
@@ -358,13 +368,11 @@ Afin de respecter la norme **WCAG**, le _trigger_ a maintenant le statut ```aria
 Le rôle `role="listbox"` définit la liste `ul` comme étant la liste de choix.  
 Chaque élément `li` a le rôle `role="option"` le rattachant au rôle de son parent et possède un attribut ```tabindex="0"``` permettant _d'accrocher_ le _focus_ et ainsi naviguer dans cette liste grâce au clavier.
 
-***
-
-### 1.4.3. Compteur de Like
+#### 1.1.4.3. Compteur de Like
 
 <img alt="heart" src="./supply/images/heart.png" width="100">
 
-#### 1.4.3.1. Fonctionnement général
+##### 1.1.4.3.1. Fonctionnement général
 
 ```html
 <i class="fas fa-heart" tabindex="0" role="button" aria-label="Likes" data-photo-id="${id}"></i>
@@ -373,17 +381,15 @@ Chaque élément `li` a le rôle `role="option"` le rattachant au rôle de son p
 L'image de coeur générée par [Font Awesome](https://fontawesome.com/) remplit le rôle de `button` permettant d'incrémenter le nombre total de mentions _j'aime_ dans le fichier [data_base.json](./data_base.json) grâce à l'_API **Fetch**_ et à sa méthode _put_.  
 Voir fichier [LikesCounter.js](./script/components/media/LikesCounter.js)
 
-#### 1.4.3.2. Etat au Focus
+##### 1.1.4.3.2. Etat au Focus
 
 <img alt="heart-focus" src="./supply/images/heart-focus.png" width="100">
 
-***
-
-### 1.4.4. Tags
+#### 1.1.4.4. Tags
 
 <img alt="tag" src="./supply/images/tag.png" width="200">
 
-#### 1.4.4.1. Construction **HTML** et **CSS**
+##### 1.1.4.4.1. Construction **HTML** et **CSS**
 
 ```html
 <div class="js-tags" role="link" tabindex="0">
@@ -409,20 +415,18 @@ La classe `sr-only` permet de cacher visuellement ce mot grâce au code **CSS** 
  }
  ```
 
- #### 1.4.4.2. Etat au Focus
+ ##### 1.1.4.4.2. Etat au Focus
 
 <img alt="tag-focus" src="./supply/images/tag-focus.png" width="200">
 
-***
-
-### 1.4.5. Sous-titres
+#### 1.1.4.5. Sous-titres
 
 <img alt="sous-titres" src="./supply/images/sous-titres.png" width="350">
 
 Toutes les vidéos présentes dans l'application sont dotées de sous-titres en français et en anglais.  
 Un même texte explicatif renseigne l'utilisateur que les vidéos sont purement visuelles et artistiques et n'ont pas de bande sonore.
 
-#### 1.4.5.1. Déclaration HTML
+##### 1.1.4.5.1. Déclaration HTML
 
 ```html
 <video controls="" data-video-id="394583434" tabindex="0">
@@ -433,7 +437,7 @@ Un même texte explicatif renseigne l'utilisateur que les vidéos sont purement 
 </video>
 ```
 
-#### 1.4.5.2. Fichier _.vtt_
+##### 1.1.4.5.2. Fichier _.vtt_
 
 ```
 WEBVTT
@@ -442,15 +446,13 @@ WEBVTT
 Vidéo artisitique sans bande sonore ...
 ```
 
-***
-
-### 1.4.6. Vignette photographe
+#### 1.1.4.6. Vignette photographe
 
 <img alt="vignette-focus" src="./supply/images/vignette-focus.png" width="300">
 
 Les vignettes de chaque photographe reçoivent le _Focus_ sur l'image et le titre `h2`.
 
-#### 1.4.6.1. Zone de _Focus_
+##### 1.1.4.6.1. Zone de _Focus_
 
 ```html
 <a class="layout__photo-name" href="photographer.html?${id}" aria-labelledby="${id}">
@@ -463,13 +465,11 @@ Les vignettes de chaque photographe reçoivent le _Focus_ sur l'image et le titr
 
 Une fonction **JavaScript** définira la valeur de l'attribut `aria-labelledby` du lien afin de renseigner l'utilisateur malvoyant.
 
-***
-
-### 1.4.7. Modal Formulaire de contact
+#### 1.1.4.7. Modal Formulaire de contact
 
 <img alt="modal-form" src="./supply/images/modal-form.png" width="350">
 
-#### 1.4.7.1. Rôle et attributs ***ARIA***
+##### 1.1.4.7.1. Rôle et attributs ***ARIA***
 
 La _modal_ a pour rôle `dialog` et un attribut `aria-hidden` dont la valeur passera de `true` à `false` à son ouverture (la gestion des états est effectuée en **JavaScript**).  
 `aria-modal="true"` indique que la `div` est une _modal_.  
@@ -486,7 +486,7 @@ La _modal_ a pour rôle `dialog` et un attribut `aria-hidden` dont la valeur pas
   <h2 class="form-content__photographer" id="photographe"></h2>
 ```
 
-#### 1.4.7.2. Input et gestion des erreurs
+##### 1.1.4.7.2. Input et gestion des erreurs
 
 Les champs obligatoires sont signalés par l'attribut `aria-required="true"`
 
@@ -511,7 +511,7 @@ et une fonction **JavaScript** ajoutera l'attribut `aria-invalid="true"` à la b
 </div>
 ```
 
-#### 1.4.7.3. Navigation au clavier et respect de **WAI-ARIA**
+##### 1.1.4.7.3. Navigation au clavier et respect de **WAI-ARIA**
 
 Comme l'indique **w3.org** [ici](https://www.w3.org/TR/wai-aria-practices-1.1/examples/dialog-modal/dialog.html), les éléments suivants ont été repectés afin de naviguer au clavier dans la _modal_ :
 
@@ -519,9 +519,7 @@ Comme l'indique **w3.org** [ici](https://www.w3.org/TR/wai-aria-practices-1.1/ex
 
 Note : Le formulaire dans sa globalité, la gestion des erreurs, l'enfermement de la tabulation et l'affichage des données utilisateur dans la console sont gérés en **JavaScript** dans le module [modal.js](./script/components/photographer/modal.js)
 
-***
-
-### 1.4.8. Modal Light Box
+#### 1.1.4.8. Modal Light Box
 
 <img alt="light-box" src="./supply/images/light-box.png" width="500">
 
@@ -531,9 +529,9 @@ Les fichiers **JavaScript** gérant le fonctionnement de la _modal_ se trouvent 
 
 ***
 
-## 1.5. Validité du code
+### 1.1.5. Validité du code
 
-### 1.5.1. HTML et CSS valide W3C
+#### 1.1.5.1. HTML et CSS valide W3C
 
 Toutes les pages **HTML** et **CSS** ont été testées et sont valides.
 
@@ -546,7 +544,7 @@ Toutes les pages **HTML** et **CSS** ont été testées et sont valides.
 
 <img alt="html-ok" src="./supply/images/html-ok.png" width="500">
 
-### 1.5.2. Accessibility checker
+#### 1.1.5.2. Accessibility checker
 
 <img alt="checker_logo" src="./supply/images/checker_logo.png" width="200">
 

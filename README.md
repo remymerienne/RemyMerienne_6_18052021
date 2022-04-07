@@ -19,7 +19,7 @@ Projet N°6 du parcours _Développeur Front-End_ [OpenClassrooms](https://opencl
 - Développer une application Web modulaire avec des Design Patterns
 - Ecrire du code Javascript maintenable
 
-L'application a été réalisée en HTML5, CSS3 et JavaScript sans aucun framework ni librairie.
+L'application a été réalisée en HTML5, CSS3 et JavaScript sans framework ni librairie.
 
 ***
 

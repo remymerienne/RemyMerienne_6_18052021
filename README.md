@@ -5,7 +5,7 @@ Projet N°6 du parcours _Développeur Front-End_ [OpenClassrooms](https://opencl
 FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux.
 
 Lien vers le site : 
-[*FishEye*](https://remymerienne.github.io/RemyMerienne_6_18052021/)
+[*FishEye*](https://remymerienne.github.io/RemyMerienne_6_18052021/index.html)
 
 ***
 
